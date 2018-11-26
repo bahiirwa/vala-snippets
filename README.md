@@ -1,6 +1,8 @@
 # Vala Snippets
 
-Vala Snippets is still in infancy stages. I personally do not know the full extent of valadoc for Vala but we can build it together. Kindly submit a PR.
+Vala Snippets is meant to be an extension to help with Vala Object Oriented Programming. 
+
+It is still in infancy stages. I personally do not know the full extent of valadoc for Vala but we can build it together. Kindly submit a PR.
 
 ## Features
 
@@ -13,7 +15,8 @@ You just need VS Code to add the extension.
 ## How to contribute
 
 Lots of snippets are missing. Please make some PRs
-* `snippets/snippets.json` - is the file containing all snippets.
+* `snippets` - is the folder containing all snippets files. 
+* Any new file created must be added to `package.json` in `root`.
 
 ## Known Issues
 

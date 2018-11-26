@@ -1,29 +1,23 @@
 {
-    "Override Function" : {
-        "prefix" : "!over",
+    "New Window Variable" : {
+        "prefix" : "!win",
         "body" : [
-            "protected override void activate () {",
-            "",
-            "}"
+            "var $1 = new Gtk.Window ();"
         ],
-        "description" : "New void override function"
+        "description" : "New Gtk Window Variable"
     },
-    "Override Function 2" : {
-        "prefix" : "over",
+    "New Window Centered" : {
+        "prefix" : "!gwc",
         "body" : [
-            "protected override void activate () {",
-            "",
-            "}"
+            "$1.window_position = Gtk.WindowPosition.CENTER;"
         ],
-        "description" : "New void override function"
+        "description" : "New Window Center"
     },
-    "Public function" : {
-        "prefix" : "!pufx",
+    "New Window Default Size" : {
+        "prefix" : "!gws",
         "body" : [
-            "public void $1 () {",
-            "",
-            "}"
+            "$1.set_default_size ($2, $3);"
         ],
-        "description" : "New public void function"
+        "description" : "New Window Default Size"
     }
 }

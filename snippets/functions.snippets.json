@@ -1,25 +1,4 @@
 {
-    "New Window Variable" : {
-        "prefix" : "!win",
-        "body" : [
-            "var $1 = new Gtk.Window ();"
-        ],
-        "description" : "New Gtk Window Variable"
-    },
-    "New Window Center" : {
-        "prefix" : "!gwc",
-        "body" : [
-            "$1.window_position = Gtk.WindowPosition.CENTER;"
-        ],
-        "description" : "New Window Center"
-    },
-    "New Window Default Size" : {
-        "prefix" : "!gws",
-        "body" : [
-            "$1.set_default_size ($2, $3);"
-        ],
-        "description" : "New Window Default Size"
-    },
     "Override Function" : {
         "prefix" : "!over",
         "body" : [
