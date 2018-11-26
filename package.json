@@ -1,0 +1,25 @@
+{
+    "name": "vala-snippets",
+    "displayName": "Vala Snippets",
+    "description": "Code snippets for Vala Language to make app develpment faster",
+    "version": "1.0.0",
+    "publisher": "Laurence Bahiirwa",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/bahiirwa/vala-snippets"
+    },
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vala",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

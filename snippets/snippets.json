@@ -1,0 +1,11 @@
+{
+    "New Class Starter" : {
+        "prefix" : "!Appclass",
+        "body" : [
+            "public class : Gtk.Application {",
+            "",
+            "}"
+        ],
+        "description" : "Create a new class file"
+    }
+}
