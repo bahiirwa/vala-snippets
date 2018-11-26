@@ -1,0 +1,29 @@
+{
+    "Override Function" : {
+        "prefix" : "!over",
+        "body" : [
+            "protected override void activate () {",
+            "",
+            "}"
+        ],
+        "description" : "New void override function"
+    },
+    "Override Function 2" : {
+        "prefix" : "over",
+        "body" : [
+            "protected override void activate () {",
+            "",
+            "}"
+        ],
+        "description" : "New void override function"
+    },
+    "Public function" : {
+        "prefix" : "!pufx",
+        "body" : [
+            "public void $1 () {",
+            "",
+            "}"
+        ],
+        "description" : "New public void function"
+    }
+}

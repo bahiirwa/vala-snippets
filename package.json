@@ -18,7 +18,15 @@
         "snippets": [
             {
                 "language": "vala",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/classes.snippets.json"
+            },
+            {
+                "language": "vala",
+                "path": "./snippets/window.snippets.json"
+            },
+            {
+                "language": "vala",
+                "path": "./snippets/functions.snippets.json"
             }
         ]
     }

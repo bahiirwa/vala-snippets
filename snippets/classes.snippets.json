@@ -1,0 +1,28 @@
+{
+    "New Application Class" : {
+        "prefix" : "!Appclass",
+        "body" : [
+            "public class $1 : Gtk.Application {",
+            "",
+            "   public $1 () {",
+            "       Object(",
+            "           application_id: \"$2\",",
+            "           flags: ApplicationFlags.FLAGS_NONE",
+            "       );",
+            "   }",
+            "",
+            "   protected override void activate () {",
+            "       var $3 = new Gtk.ApplicationWindow (this);",
+            "       $3.show_all ();",
+            "   }",
+            "",
+            "   public static int main (string[] args) {",
+            "       var $4 = new $1 ();",
+            "       return $4.run (args);",
+            "   }",
+            "",
+            "}"
+        ],
+        "description" : "New Gtk application class in Object Oriented Programming"
+    }
+}
